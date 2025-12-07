@@ -8,6 +8,7 @@ import (
 
 	"github.com/charmbracelet/log"
 	"github.com/gin-gonic/gin"
+	_ "github.com/lib/pq"
 )
 
 var logger *log.Logger
